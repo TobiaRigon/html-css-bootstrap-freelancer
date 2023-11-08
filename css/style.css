@@ -7,13 +7,35 @@ header{
     padding: 10px 0;
 }
 
-section{
-   
-}
 
-section:nth-child(odd){
+
+ main section:nth-child(odd){
     background-color: rgb(57, 206, 176);
 }
+
+.container_small{
+    margin: 0 35px;
+}
+
+/* footer */
+
+footer section{
+    color: white;
+}
+
+footer section:nth-child(1){
+    background-color:rgb(47, 79, 102)
+}
+
+footer section:nth-child(2){
+    background-color:rgb(28, 48, 62);
+}
+
+footer span{
+    padding: 40px 0;
+    display: block;
+}
+
 
 /* debug */
 
@@ -24,5 +46,5 @@ section:nth-child(odd){
 
 .container{
     border: 1px solid rgb(255, 0, 212);
-    min-height: 60px;
+   
 }
