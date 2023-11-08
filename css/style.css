@@ -1,0 +1,28 @@
+/* header */
+
+header{
+   
+    background-color: rgb(47, 79, 102);
+    color: white;
+    padding: 10px 0;
+}
+
+section{
+   
+}
+
+section:nth-child(odd){
+    background-color: rgb(57, 206, 176);
+}
+
+/* debug */
+
+[class*= 'col']{
+    border: 2px solid red;
+    min-height: 60px;
+}
+
+.container{
+    border: 1px solid rgb(255, 0, 212);
+    min-height: 60px;
+}
