@@ -10,6 +10,7 @@ header{
 
 .navbar-brand , header .navbar-expand-md .navbar-nav .nav-link{
     color: white;
+    font-weight: bold;
 }
 
 
@@ -24,14 +25,60 @@ header{
 
 /* main */
 
+section{
+    padding: 25px 0;
+}
+
  main section:nth-child(odd){
     background-color: rgb(57, 206, 176);
     color: white;
 }
 
+
+main section:nth-child(odd) a{
+    color: white;
+    font-weight: bold;
+}
+
 .container_small{
+    
     margin: 0 35px;
 }
+
+
+.img_container{
+    max-width: 435px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1{
+    font-weight: bold;
+}
+
+
+
+/* separatore */
+
+.separate{
+    margin: 20px auto;
+    display: flex;
+    max-width: 40%;
+    align-items: center;
+}
+
+.stripe{
+    height: 50%;
+    border-bottom: 3px solid;
+    flex-grow: 1;
+    margin: 0 10px;
+}
+
+.fa-star{
+    font-size: 26px;
+}
+
+
 
 /* footer */
 
