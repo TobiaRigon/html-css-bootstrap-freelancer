@@ -8,9 +8,25 @@ header{
 }
 
 
+.navbar-brand , header .navbar-expand-md .navbar-nav .nav-link{
+    color: white;
+}
+
+
+.navbar-toggler{
+    border: 1px solid white;
+}
+
+.navbar-toggler:focus{
+    box-shadow: 0 0 0 ;
+}
+
+
+/* main */
 
  main section:nth-child(odd){
     background-color: rgb(57, 206, 176);
+    color: white;
 }
 
 .container_small{
