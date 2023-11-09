@@ -27,6 +27,7 @@ header{
 
 section{
     padding: 25px 0;
+    font-weight: bold;
 }
 
  main section:nth-child(odd){
@@ -47,12 +48,12 @@ main section:nth-child(odd) a{
 
 
 .img_container{
-    max-width: 435px;
+    max-width: 300px;
     margin: 0 auto;
     text-align: center;
 }
 
-h1{
+h1 ,h2 , h3{
     font-weight: bold;
 }
 
@@ -79,6 +80,46 @@ h1{
 }
 
 
+/* form */
+
+form{
+    text-align: start;
+    
+}
+
+input {
+   
+    border: 0px solid;
+    margin: 5px 0;
+    flex-grow: 1;
+    
+}
+
+textarea{
+    border: 0px solid;
+}
+
+label{
+    margin: 5px 0;
+}
+
+.input_container{
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+
+[type="submit"]{
+    background-color: rgb(57, 206, 176);
+    color: white;
+    color: white;
+    padding:5px 20px;
+    margin: 10px 0;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
 
 /* footer */
 
@@ -100,14 +141,14 @@ footer span{
 }
 
 
-/* debug */
 
-[class*= 'col']{
-    border: 2px solid red;
-    min-height: 60px;
-}
-
-.container{
-    border: 1px solid rgb(255, 0, 212);
+.my_card i{
    
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin: 25px 0px;
 }
+
+
